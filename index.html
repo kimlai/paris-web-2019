@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Auto-critique de la revue de code (bienveillante)</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/white.css" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>Auto-critique de la revue de code (bienveillante)</h2>
+          <small>Kim Laï TRINH</small>
+        </section>
+        <section>
+          <h2>Pré-requis</h2>
+          <ul>
+            <li>Pull Request</li>
+            <li>Revue de code</li>
+          </ul>
+        </section>
+        <section>
+          <h2>À la Ruche</h2>
+          <ul>
+            <li>entre 5 et 15 développeur·se·s</li>
+            <li>👍 + 👍 = 🚀</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Objectifs de la revue de code</h2>
+          <ul>
+            <li class="fragment">corriger les bugs avant de 🚀</li>
+            <li class="fragment">maîtriser l'architecture logicielle</li>
+            <li class="fragment">diffuser les connaissances</li>
+            <li class="fragment">partager la responsabilité</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Comment faire une bonne revue de code ?</h2>
+        </section>
+        <section>
+          <h2>1. Être bienveillant</h2>
+          <ul class="fragment">
+            <li>se concentrer sur le code</li>
+            <li>éviter l'impératif</li>
+            <li>poser des questions</li>
+            <li>justifier techniquement ses commentaires</li>
+            <li>proposer des solutions</li>
+            <li>rester respecteux</li>
+            <li>dire merci</li>
+          </ul>
+        </section>
+        <section>
+          <h2>1. Être bienveillant</h2>
+          <ul>
+            <li>
+              <span style="background: rgb(34, 34, 34);color: white">
+                se concentrer sur le code
+              </span>
+            </li>
+            <li>éviter l'impératif</li>
+            <li>poser des questions</li>
+            <li>justifier techniquement ses commentaires</li>
+            <li>proposer des solutions</li>
+            <li>rester respecteux</li>
+            <li>dire merci</li>
+          </ul>
+        </section>
+        <section>
+          <h2>2. Mettre de côté son ego</h2>
+          <div class="fragment">
+            <blockquote style="word-break: keep-all;">
+              <b>Vous n’êtes pas votre code.</b> Rappelez-vous que le but de la
+              revue de code est de trouver des problèmes, et des problèmes
+              seront trouvés. Ne le prenez pas personnellement lorsqu’ils sont
+              découverts.
+            </blockquote>
+            <div>
+              The psychology of computer programming
+            </div>
+            <div>(Gerald M. Weinberg - 1971)</div>
+          </div>
+        </section>
+        <section>
+          <h2>À la ruche</h2>
+          <ul>
+            <li>bonne ambiance dans l'équipe</li>
+            <li>respect mutuel et bienveillance</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Pourtant</h2>
+          <ul>
+            <li class="fragment">PRs qui s'empilent</li>
+            <li class="fragment">problèmes d'architecture</li>
+            <li class="fragment">code parfois difficile à s'approprier</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Pré-requis</h2>
+          <p class="fragment">
+            Il existe des discriminations <b>strutcurelles</b> qui proviennent
+            de rapports de domination entre certains groupes
+          </p>
+        </section>
+        <section>
+          <h2>Quel rapport ?</h2>
+        </section>
+        <section>
+          <h1>La revue de code est une interaction sociale</h1>
+        </section>
+        <section>
+          <h2>Dans une équipe technique</h2>
+          <ul>
+            <li class="fragment">le nombre d'années d'expérience</li>
+            <li class="fragment">études d'informatique / autodidacte</li>
+            <li class="fragment">backend / frontend</li>
+            <li class="fragment">computer science / design</li>
+            <li class="fragment">vim, emacs / PHPStorm</li>
+          </ul>
+        </section>
+        <section>
+          <blockquote style="word-break: keep-all;">
+            <b>Vous n’êtes pas votre code.</b> Rappelez-vous que le but de la
+            revue de code est de trouver des problèmes, et des problèmes seront
+            trouvés. Ne le prenez pas personnellement lorsqu’ils sont
+            découverts.
+          </blockquote>
+        </section>
+        <section>
+          <blockquote>
+            La seule véritable autorité acceptable découle de la connaissance et
+            non du pouvoir. La connaissance engendre l’autorité, et l’autorité
+            suscite le respect.
+            <b>Si vous voulez du respect, cultivez le savoir.</b>
+          </blockquote>
+        </section>
+        <section>
+          <h2>La revue de code (empathique)</h2>
+          <ul>
+            <li class="fragment">Exemple 1 : le freelance</li>
+            <li class="fragment">Exemple 2 : le professionnel</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Nouvel objectif</h2>
+          <p class="fragment">
+            S'assurer que <b>toutes</b> les personnes de l'équipe contribuent,
+            tirent de la <b>reconnaissance</b> de leurs contributions et gagnent
+            en <b>autonomie</b>
+          </p>
+        </section>
+        <section>
+          <h2>Par exemple</h2>
+        </section>
+        <section>
+          <p>merci :)</p>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        controls: false,
+        progress: false,
+        transition: "none",
+        width: 1024,
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          { src: "plugin/highlight/highlight.js", async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>
